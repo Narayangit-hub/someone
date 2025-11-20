@@ -1,0 +1,15 @@
+sudo apt update -y
+sudo apt upgrade -y
+sudp apt install nginx -y
+sudo systemctl start nginx
+sudo systemctl enable nginx
+
+cd  /var/www/html/index.debian.nginx.html
+ls
+
+sudo rm index.debian.nginx.html
+sudo git init
+git add remote origin ----
+git pull origin main
+
+nano home/azureuser/deploy.sh
